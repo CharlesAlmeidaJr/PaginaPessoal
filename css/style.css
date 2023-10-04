@@ -1,0 +1,252 @@
+
+:root{
+    --color1: #ebebeb;
+    --color2: #c7c6b7;
+    --color3: #a0a083;
+    --color4: #798478;
+    --color5: #4d6a6d;
+    --color5-d: #376469;
+    --color-font: #454c4d;
+}
+
+#corpo-pagina{
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+    color: var(--color-font);
+    margin: 0;
+    height: 100%;
+    padding-top: 4em;
+}
+
+#titulo-pagina h1 a{
+    padding: 0 0.3em;
+    line-height: 1.65em;
+}
+
+
+/* 
+Barra TOPO 
+*/
+
+.cabecalho {
+    background-color: var(--color5);
+    height: 4.2em;
+    min-width: 930px;
+    margin: 0 auto;
+    padding-left: 0.7em;
+}
+
+.cabecalho a{
+    color: white;
+}
+
+.cabecalho a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.cabecalho li a:hover{
+    background-color: var(--color5-d);
+}
+
+.cabecalho ul a{
+    display: block;
+    padding: 1.3em 2em;
+}
+
+/* 
+Caixa INFO Pessoal 
+*/
+
+.caixa-info-pessoal{
+    background-color: var(--color2);
+    height: 400px;
+    padding: 30px;
+    max-width: 800px;
+    min-width: 650px;
+}
+
+.caixa-info-pessoal #foto-perfil{
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 35px;
+    border-radius: 50%;
+}
+
+#info-pessoal{
+    margin-top: 10px;
+}
+
+#info-pessoal h2{
+    font-size: 2.5em;
+}
+
+#info-pessoal h2, #info-pessoal p{
+    margin-left: 350px;
+}
+
+#social-icons .caixa-info-pessoal{
+    margin-top: 0;
+    background-color: var(--color4);
+    padding: 0;
+    height: 50px;
+}
+
+#social-icons .caixa-info-pessoal a{
+    color: var(--color-font);
+    font-size: 24px;
+    line-height: 55px;
+    margin: 0 30px;
+}
+
+#social-icons {
+    background-color: var(--color1);
+}
+
+#icons {
+    width: 355px;
+}
+
+.img-background{
+    background-image: url(../img/bg1.jpg);
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    padding-top: 195px;
+}
+
+/*
+Quem sou
+*/
+
+#section-bio {
+    background-color: var(--color1);
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 50px;
+}
+
+#section-bio h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* 
+Experiencia 
+*/
+
+#section-exp {
+    color: white;
+    background-color: var(--color3);
+    padding: 50px 7%;
+}
+
+#section-exp .experiencia{
+    margin-top: 30px;
+}
+
+#section-exp .periodo{
+    text-align: left;
+}
+
+#section-exp hr{
+    border-top: 1px solid white;
+}
+
+/* 
+Formação 
+*/
+
+#section-formacao {
+    background-color: var(--color2);
+    padding: 50px 7%;
+}
+
+#section-formacao .formacao{
+    margin-top: 30px;
+}
+
+#section-formacao .formacao h5{
+    font-style: italic;
+}
+
+#section-formacao hr{
+    border-top: 1px solid var(--color-font);
+}
+
+/* 
+Habilidades 
+*/
+
+#section-habilidades{
+    color: white;
+    background-color: var(--color4);
+    padding: 50px 7%;    
+}
+
+#section-habilidades .habilidade{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--color-font);
+}
+
+/* 
+Contato 
+*/
+
+#section-contato{
+    background-color: var(--color1);
+    padding: 50px 7%;
+}
+
+#section-contato ion-icon{
+    color: var(--color-font);
+    font-size: 24px;
+    line-height: 55px;
+    margin-right: 0.5em;
+}
+
+#contato-icons{
+    border-top: 1px solid var(--color-font);
+    padding-top: 10px;
+}
+
+#section-contato a{
+    color: var(--color-font);
+}
+
+#section-contato a:hover{
+    color: var(--color-font);
+}
+
+#section-contato .formulario input,
+#section-contato .formulario textarea{
+    margin-bottom: 1em;
+}
+
+#section-contato .formulario button{
+    background-color: var(--color-font);
+    border: none;
+}
+
+/*
+Rodape 
+*/
+
+#rodape{
+    font-size: 0.8em;
+    color: white;
+    padding: 10px 7%;
+    background-color: var(--color-font);
+}
+
+
+@media (max-width: 991px){
+
+    #section-exp .periodo{
+        text-align: left;
+    }
+
+}
